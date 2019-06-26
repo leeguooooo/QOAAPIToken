@@ -6,7 +6,7 @@
 
   <groupId>org.leeguoo</groupId>
   <artifactId>qoa-token</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
   <name>QOAAPIToken</name>
   <description>A QUNAR OA Workflow System Encryption Tool</description>
