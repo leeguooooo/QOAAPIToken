@@ -4,12 +4,12 @@
 1. 引入依赖
 ```xml
     <dependency>
-      <groupId>org.leeguoo</groupId>
+      <groupId>com.leeguoo</groupId>
       <artifactId>qoa-token</artifactId>
-      <version>1.0.3</version>
+      <version>1.0.0</version>
     </dependency>
 ```
-使用方式:
+2. 使用方式:
 ```java
-  QOASecurityUtil.makeToken("testtest", "testtest")
+  QOASecurityUtil.makeToken("你的appcode", "你的password")
 ```
