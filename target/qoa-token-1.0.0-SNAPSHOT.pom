@@ -21,7 +21,6 @@
     <url>https://github.com/leeguooooo/QOAAPIToken</url>
     <connection>scm:git:git@github.com:leeguooooo/QOAAPIToken.git</connection>
     <developerConnection>scm:git:git@github.com:leeguooooo/QOAAPIToken.git</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   <developers>
     <developer>
