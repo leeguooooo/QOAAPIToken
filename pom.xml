@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.leeguoo</groupId>
+  <groupId>com.leeguoo</groupId>
   <artifactId>qoa-token</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
@@ -60,14 +60,6 @@
       <id>release</id>
       <build>
         <plugins>
-
-<!--          <plugin>-->
-<!--            <groupId>org.sonatype.plugins</groupId>-->
-<!--            <artifactId>nexus-staging-maven-plugin</artifactId>-->
-<!--            <configuration>-->
-<!--              <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>-->
-<!--            </configuration>-->
-<!--          </plugin>-->
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
@@ -127,9 +119,9 @@
                   <goal>jar</goal>
                 </goals>
                 <!-- java8版本导致javadoc打包编译失败时候，添加-->
-<!--                <configuration>-->
-<!--                  <additionalparam>${javadoc.opts}</additionalparam>-->
-<!--                </configuration>-->
+                <!--                <configuration>-->
+                <!--                  <additionalparam>${javadoc.opts}</additionalparam>-->
+                <!--                </configuration>-->
               </execution>
             </executions>
           </plugin>
